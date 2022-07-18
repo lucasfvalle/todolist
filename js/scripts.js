@@ -18,8 +18,6 @@ document.addEventListener("DOMContentLoaded", () => {
         if(TaskName == "" || TaskName == null || TaskName == " "){
             alert("Insira o nome da tarefa!")
         }else{
-            // Desabilita mensagem de lista vazia
-            nullList.style.display = 'none';
             // Indice do item
             itemId++;
             // Cria o item da lista
