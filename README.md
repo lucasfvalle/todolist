@@ -23,3 +23,7 @@ lata de lixo, ao clicar nesse botão a tarefa é removida da lista.
 Lucas Ferreira do Valle
 
 Linkedin: https://www.linkedin.com/in/lucasfvalle/
+
+// Visualizar projeto
+
+Link do projeto: https://lucasfvalle.github.io/todolist/
