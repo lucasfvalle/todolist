@@ -9,6 +9,7 @@ front-end.
 - JavaScript.
 
 // Resumo
+
 Aplicação web desenvolvida com HTML5, CSS3 e JavaScript.
 O usuário digita o nome da tarefas que deseja criar no input
 de texto e clica no botão "+" para adicionar a tarefa a lista.
