@@ -21,4 +21,5 @@ lata de lixo, ao clicar nesse botão a tarefa é removida da lista.
 // Autor
 
 Lucas Ferreira do Valle
+
 Linkedin: https://www.linkedin.com/in/lucasfvalle/
