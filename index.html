@@ -28,29 +28,23 @@
                 <label class="task-add-label" for="task-add-input">
                     <span>Adicione uma nova tarefa:</span>
                     <div class="add-items">
-                        <input class="task-add-input" type="text" id="task-add-input" name="task-add-input" />
-                        <button class="task-add-button" type="button"><i class="bi bi-plus-circle"></i></button>
+                        <input id="new-task" class="task-add-input" type="text" id="task-add-input" name="task-add-input" />
+                        <button id="new-task-button" class="task-add-button" type="button"><i class="bi bi-plus-circle"></i></button>
                     </div>
                 </label>
                 
             </div>
-            <ul class="todo-list">
+            <p id="null-list">Suas tarefas aparecerão aqui!</p>
+            <ul id="todo-list" class="todo-list">
+                <!-- Deve ser exibido assim
                 <li class="todo-item">
                     <i class="bi bi-list"></i> 
                     <span class="todo-name">Item - 1</span>
-                    <button type="button"><i class="bi bi-trash"></i></button>
+                    <input class="done-check" id="done-check" type="checkbox"> Concluída  </input>
+                    <button class="delete-button" type="button"><i class="bi bi-trash"></i></button>
                 </li>
-                <li class="todo-item">
-                    <i class="bi bi-list"></i>
-                    <span class="todo-name">Item - 2</span>
-                    <button type="button"><i class="bi bi-trash"></i></button>
-
-                </li>
-                <li class="todo-item">
-                    <i class="bi bi-list"></i>
-                    <span class="todo-name">Item - 3</span>
-                    <button type="button"><i class="bi bi-trash"></i></button>
-                </li>
+                 -->
+                
             </ul>
         </div>
     </div>

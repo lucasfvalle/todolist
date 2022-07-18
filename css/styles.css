@@ -114,11 +114,20 @@ body{
     transition: ease-in-out .3s;
     background-color:#f2f2f2;
 }
+.done{
+    background-color: #6bdd8e;
+}
+.done:hover{
+    background-color: #4ab66b;
+}
 .todo-item span{
     width: 90%;
     padding-left: 5px;
 }
-.todo-item button{
+.done-check{
+    margin-right: 5px;
+}
+.delete-button{
     width: 10%;
     height: 25px;
     display: flex;
@@ -130,8 +139,9 @@ body{
     padding-top:5px;
     border-radius: 5px;
     color: #fff;
+    margin-left: 1em;
 }
-.todo-item button:hover{
+.delete-button:hover{
     transition: ease-in-out .3s;
     background-color: #9a1513;
     cursor: pointer
