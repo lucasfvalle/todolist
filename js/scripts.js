@@ -1,14 +1,9 @@
 document.addEventListener("DOMContentLoaded", () => {
-    
-
-    console.log("DOM carregado!");
-
     const newTask = document.getElementById('new-task');
     const newTaskButton = document.getElementsByTagName("button")[0];
     const toDoList = document.getElementById('todo-list');
     var TaskName;
     var itemId = 0;
-    let nullList = document.getElementById('null-list');
     
     // Valor do Input
     newTask.addEventListener("input",() =>{
@@ -75,12 +70,6 @@ document.addEventListener("DOMContentLoaded", () => {
                 // Remove o item da lista
                 toDoList.removeChild(deletaPai);
             })
-
-
-
-            
-       
-
         }
     });
 })
